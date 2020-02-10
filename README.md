@@ -1,2 +1,2 @@
 # gallery
-Responsive Gallery
+Responsive Gallery with lightbox

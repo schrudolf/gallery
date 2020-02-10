@@ -4,6 +4,9 @@ body {
     font-weight: bold;
     background: black;
 }
+.container {
+    margin-bottom: 10px;
+}
 
 .leftside {
     height: 100vh;
@@ -13,9 +16,21 @@ body {
     border-bottom: 2px solid #6495c8;
 }
 
- .fa {
+.fa {
     font-size: 1.5rem;
     color:#007bff;
+}
+
+.fa:hover {
+    transform: scale(1.1);
+}
+
+.fa-heart-o {
+    color: pink;
+}
+
+.fa-heart-o:hover {
+    color: pink;
 }
 
 p {
@@ -28,16 +43,18 @@ p {
 
 img {
     border: 2px solid #6495c8;
-    margin: 20px;
+}
+
+.img-fluid {
+    margin-top: 10px;
 }
 
 .img-fluid:hover {
     border: 2px solid white;
-    -ms-transform: scale(1.2); /* IE 9 */
-    -webkit-transform: scale(1.2); /* Safari 3-8 */
-    transform: scale(1.2);
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
 }
-
 
 .dark {
     background: #042331;
