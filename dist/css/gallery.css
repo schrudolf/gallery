@@ -65,7 +65,13 @@ img {
 
 @media (max-width: 992px) {
     .leftside {
-        height: 15vh;
+        height: 10vh;
+    }
+}
+
+@media (max-width: 576px) {
+    .leftside {
+        display: none;
     }
 }
 
