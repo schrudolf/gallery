@@ -17,8 +17,9 @@ body {
 }
 
 .fa {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color:#007bff;
+    padding: 3px;
 }
 
 .fa:hover {
@@ -27,10 +28,6 @@ body {
 
 p {
     margin: 15px auto;
-}
-
-.fa-cog {
-    font-size: 1.2rem;
 }
 
 img {
@@ -68,6 +65,7 @@ img {
 
 @media (max-width: 992px) {
     .leftside {
-        height: 12vh;
+        height: 15vh;
     }
 }
+
