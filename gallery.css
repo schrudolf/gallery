@@ -31,12 +31,13 @@ img {
     margin: 20px;
 }
 
-img:hover {
+.img-fluid:hover {
+    border: 2px solid white;
     -ms-transform: scale(1.2); /* IE 9 */
     -webkit-transform: scale(1.2); /* Safari 3-8 */
-    transform: scale(1.2); 
-    border: 2px solid white;
-  }
+    transform: scale(1.2);
+}
+
 
 .dark {
     background: #042331;
