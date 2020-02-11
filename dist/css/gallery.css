@@ -8,6 +8,11 @@ body {
     margin-bottom: 10px;
 }
 
+.btn {
+    margin-top: -15px;
+    margin-bottom: 5px;
+}
+
 .leftside {
     height: 100vh;
     text-align: center;
@@ -63,15 +68,21 @@ img {
     border-bottom: 2px solid #6495c8;
 }
 
+.settings {
+    margin-top: 15px;
+    margin: auto;
+}
+
 @media (max-width: 992px) {
     .leftside {
-        height: 10vh;
+        display: block;
+        height: 10%;
     }
 }
 
-@media (max-width: 766px) {
+/* @media (max-width: 766px) {
     .leftside {
         display: none;
     }
-}
+} */
 
