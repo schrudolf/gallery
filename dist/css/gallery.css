@@ -80,9 +80,9 @@ img {
     }
 }
 
-/* @media (max-width: 766px) {
+@media (max-width: 766px) {
     .leftside {
         display: none;
     }
-} */
+}
 
